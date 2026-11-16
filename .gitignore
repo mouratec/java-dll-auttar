@@ -1,0 +1,65 @@
+# Build outputs & executáveis gerados
+target/
+build/
+dist/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Logs & temporários de execução TEF
+logs/
+*.log
+tef_pendentes/
+tef_diario_*.txt
+*.tmp
+*.dat
+*.dump
+
+# Maven Wrapper & cache
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+# IDEs & Editores
+.idea/
+*.iws
+*.iml
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+.vscode/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Backups e diretórios locais
+manual/
+.git-old/
+
+# Scripts de execução e configurações de ambiente locais
+.editorconfig
+executar.bat
+executar.ps1
+executar.sh
+
